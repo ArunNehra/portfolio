@@ -1,0 +1,46 @@
+.cover-letter-section {
+  position: relative;
+}
+
+.letter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 4px solid var(--accent-color);
+}
+
+.letter-content p {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.salutation {
+  font-weight: 600;
+  color: var(--text-primary) !important;
+  font-size: 1.2rem !important;
+}
+
+.sign-off {
+  margin-top: 3rem;
+}
+
+.signature {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  margin: 0.5rem 0;
+}
+
+.contact-info {
+  font-size: 0.9rem !important;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .letter-container {
+    padding: 2rem;
+  }
+}

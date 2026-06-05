@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 4rem);
+  max-width: 1200px;
+  z-index: 1000;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.header:hover {
+  transform: translateX(-50%) translateY(0);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent-color);
+}
+
+.hire-me-btn {
+  background: linear-gradient(135deg, #8a2be2 0%, #00f0ff 100%);
+  color: #fff !important;
+  border: none !important;
+  padding: 0.6rem 1.5rem !important;
+}
+
+.hire-me-btn:hover {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a:not(.btn-primary) {
+  font-weight: 600;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.nav-links a:not(.btn-primary)::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.nav-links a:not(.btn-primary):hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}

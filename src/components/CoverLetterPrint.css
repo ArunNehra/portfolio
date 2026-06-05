@@ -1,0 +1,43 @@
+/* Add to the end of CoverLetter.css */
+@media print {
+  /* Use display: none to force a full repaint when exiting print mode, fixing the render glitch */
+  body > * { display: none !important; }
+  body > #root { display: block !important; }
+  #root > * { display: none !important; }
+  #root > main { display: block !important; }
+  main > * { display: none !important; }
+  main > #cover-letter { display: block !important; }
+  
+  .cover-letter-section {
+    position: static; /* Let it sit normally since it's the only visible element */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .letter-container {
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: black !important;
+    padding: 0 !important;
+  }
+
+  .letter-content p, .salutation, .signature, .contact-info, .section-title {
+    color: black !important;
+  }
+
+  .text-secondary {
+    display: none; /* Hide the brief intro subtitle */
+  }
+
+  .btn-secondary {
+    display: none !important; /* Hide the print button itself */
+  }
+
+  /* Reset layout constraints for paper */
+  .container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}
