@@ -13,10 +13,19 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  background: #1a1d24 !important;
+  background: rgba(26, 29, 36, 0.7) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.05) !important;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15) !important;
 }
 
 .skill-category-title {
