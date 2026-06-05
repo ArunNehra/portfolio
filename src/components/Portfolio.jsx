@@ -21,7 +21,7 @@ const Portfolio = () => {
       company: "Freelance",
       description: "Developed an enterprise-grade real-time monitoring platform. Built a Go agent for low-level server telemetry, a Laravel API backend with PostgreSQL/InfluxDB dual storage, and a React dashboard.",
       tags: ["Go", "React", "TypeScript", "Laravel", "PostgreSQL", "InfluxDB", "Docker"],
-      image: "/schemapulse_dashboard.png"
+      image: import.meta.env.BASE_URL + "schemapulse_dashboard.png"
     },
     {
       title: "Taboola Product Implementation Platform",
