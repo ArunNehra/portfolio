@@ -3,6 +3,39 @@
   background: var(--bg-color);
 }
 
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: var(--accent-glow);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

@@ -14,27 +14,23 @@ const CoverLetter = () => {
             <p className="salutation">Dear Hiring Manager,</p>
             
             <p>
-              I am writing to express my interest in a Principal/Senior Software Engineering position. With over 9 years of experience building scalable, high-performance systems across UI architecture, AI, cloud, and DevOps, I am confident in my ability to make a meaningful impact on your team.
+              I am writing to express my interest in a Principal Fullstack Software Engineering position. With over 9 years of experience engineering scalable web applications with deep-seated expertise in advanced frontend architectures, state management, and full-stack integrations, I am confident in my ability to drive technical excellence on your team.
             </p>
             
             <p>
-              In my current role as Principal Software Engineer at Eptura, I have led UI modernisation initiatives using Monorepo (NX) and Microfrontend architectures, enabling scalable architecture, faster releases, and improved developer experience. I built and scaled a high-performance User Directory & Management system handling 100K+ records with optimised load times and secure access controls.
+              In my current role as Principal Software Engineer at Eptura, I have led web modernization initiatives using monorepo (NX) and micro-frontend architectures, establishing scalable UI foundations and elevating developer productivity. On the backend, I built and scaled high-throughput systems, including a user directory managing 100K+ records, using optimization policies to ensure secure, sub-second client delivery.
             </p>
 
             <p>
-              I designed CI/CD pipelines that reduced release cycles from weeks to days, improving deployment reliability with Docker, Kubernetes, and Azure. I also integrated AI-driven workflows using AI-assisted pair programming and built AI Agents with Azure AI Foundry for automation, implementing GenAI/LLM-based solutions with RAG using LangChain/LangGraph.
+              I have designed and implemented full-stack pipelines that reduced release cycles from weeks to days, leveraging Docker, Kubernetes, and Azure for cloud-native reliability. I also integrated GenAI workflows, designing custom Model Context Protocol (MCP) servers and AI Agents via Azure AI Foundry to automate client-side operations.
             </p>
             
             <p>
-              My expertise spans GenAI, AI Agents, LLMs, and RAG-based architectures, with hands-on experience in agentic workflows using LangChain/LangGraph and context engineering. I am experienced in AI-assisted pair programming, AI Foundry agent development, and building custom MCPs.
+              My expertise spans the entire lifecycle of modern web products, combining a mastery of client-side frameworks (React, Next.js, Redux Saga) with robust API development (GraphQL/REST, BFF patterns) and database engineering (PostgreSQL, MySQL, InfluxDB).
             </p>
 
             <p>
-              I have a strong background in React, TypeScript, Node.js, Go, APIs (GraphQL/REST, BFF), and cloud-native systems (AWS/Azure/GCP, Docker, CI/CD), with a focus on scalability, observability, and SRE practices.
-            </p>
-            
-            <p>
-              I am excited about the opportunity to bring my technical expertise and leadership experience to your organization. I would welcome the chance to discuss how my skills and experience align with your team's goals.
+              I am excited about the opportunity to bring my full-stack capabilities and user-centric architecture experience to your organization. I would welcome the chance to discuss how my background aligns with your team's upcoming goals.
             </p>
 
             <div className="sign-off">

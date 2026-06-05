@@ -8,23 +8,23 @@ const Skills = () => {
     },
     {
       title: "🖥️ Frontend & UI Architecture",
-      skills: ["React", "Next.js", "TypeScript", "JavaScript", "Microfrontends (MFE)", "Monorepo (NX)", "Redux", "Jotai", "HTML5", "CSS3", "SASS", "Styled Components"]
+      skills: ["React", "Next.js", "TypeScript", "JavaScript", "Microfrontends (MFE)", "Monorepo (NX)", "Redux Toolkit", "Redux Saga", "Tailwind CSS", "Styled Components", "Jotai"]
     },
     {
-      title: "⚙️ Backend & APIs",
-      skills: ["Node.js", "REST APIs", "GraphQL", "Backend for Frontend (BFF)", "API Design & Integration", "Go"]
+      title: "⚙️ Backend & Databases",
+      skills: ["Node.js", "NestJS", "Go", "PHP / Laravel", "GraphQL", "REST APIs", "TypeORM", "PostgreSQL", "MySQL", "InfluxDB (Time-Series)", "Firebase / Firestore"]
     },
     {
-      title: "☁️ Cloud, DevOps & Platform",
-      skills: ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "CI/CD (Jenkins)", "DevOps Pipelines", "Cloud Deployment"]
+      title: "🦀 Systems & Audio DSP",
+      skills: ["Rust (DSP & Systems)", "nih_plug (VST3 / CLAP)", "Zero-Delay Feedback (ZDF)", "Spectral Processing (FFT)", "Granular Synthesis", "Vizia / Egui", "Thread-Safe Real-time DSP"]
     },
     {
-      title: "📈 Observability & Performance",
-      skills: ["Grafana", "Kibana", "Logging", "Monitoring", "Tracing", "Performance Optimization", "Scalability", "SRE Practices"]
+      title: "☁️ Cloud, DevOps & Serverless",
+      skills: ["AWS", "Azure", "GCP", "Docker & Docker Compose", "Kubernetes", "CI/CD (Jenkins)", "Nginx", "Netlify Serverless Functions"]
     },
     {
-      title: "🧪 Testing & Quality",
-      skills: ["Jest", "Cypress", "Automated Testing", "Test Strategy"]
+      title: "📈 Observability & Testing",
+      skills: ["Grafana", "Kibana", "System Telemetry", "Performance Optimization", "Jest", "Cypress", "Automated Testing"]
     }
   ];
 

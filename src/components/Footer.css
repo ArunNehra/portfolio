@@ -67,3 +67,59 @@
     gap: 2rem;
   }
 }
+
+/* Contact Cards styling */
+.contact-card {
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-card:not(.no-link):hover {
+  background: rgba(0, 240, 255, 0.04);
+  border-color: var(--accent-color);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 240, 255, 0.1);
+}
+
+.contact-card.no-link:hover {
+  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:not(.no-link):hover .contact-icon {
+  transform: scale(1.15);
+}
+
+.contact-title {
+  color: var(--accent-color);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-value {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  word-break: break-all;
+  transition: color 0.3s ease;
+}
+
+.contact-card:not(.no-link):hover .contact-value {
+  color: var(--text-primary);
+}
