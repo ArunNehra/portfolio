@@ -22,6 +22,14 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
     },
     {
+      title: "Drivio",
+      company: "Freelance",
+      category: "Frontend",
+      description: "Developed a serverless car rental platform using Next.js 14 App Router and Google Apps Script. Implemented dynamic static generation, custom SEO schemas, and secure API proxying.",
+      tags: ["Next.js", "React", "Serverless", "SEO", "Apps Script", "Vanilla CSS"],
+      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80"
+    },
+    {
       title: "SchemaPulse: Distributed Database & System Monitoring Platform",
       company: "Freelance",
       category: "Systems & Backend",

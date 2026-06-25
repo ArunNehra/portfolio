@@ -8,7 +8,7 @@ const Skills = () => {
     },
     {
       title: "🖥️ Frontend & UI Architecture",
-      skills: ["React", "Next.js", "TypeScript", "JavaScript", "Microfrontends (MFE)", "Monorepo (NX)", "Redux Toolkit", "Redux Saga", "Tailwind CSS", "Styled Components", "Jotai"]
+      skills: ["React", "Next.js", "TypeScript", "JavaScript", "Microfrontends (MFE)", "Monorepo (NX)", "Redux Toolkit", "Redux Saga", "SEO & Schema Markup", "Tailwind CSS", "Styled Components", "Jotai"]
     },
     {
       title: "⚙️ Backend & Databases",
@@ -20,7 +20,7 @@ const Skills = () => {
     },
     {
       title: "☁️ Cloud, DevOps & Serverless",
-      skills: ["AWS", "Azure", "GCP", "Docker & Docker Compose", "Kubernetes", "CI/CD (Jenkins)", "Nginx", "Netlify Serverless Functions"]
+      skills: ["AWS", "Azure", "GCP", "Docker & Docker Compose", "Vercel", "Google Apps Script", "Serverless Functions (Vercel/Netlify)", "Kubernetes", "CI/CD (Jenkins)", "Nginx"]
     },
     {
       title: "📈 Observability & Testing",
