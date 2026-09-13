@@ -6,11 +6,27 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Eptura Visitor Management Platform",
+      company: "Eptura",
+      category: "Systems & Backend",
+      description: "Engineered scalable features across backend APIs, web admin apps, and mobile clients for an enterprise visitor management system. Led critical data migration tooling, identity/SCIM integrations, and robust cross-repo architecture.",
+      tags: ["Node.js", "TypeScript", "NestJS", "Angular", "React Native", "MySQL", "Event Hub"],
+      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "Heritage to Platform Migration Service",
+      company: "Eptura",
+      category: "Systems & Backend",
+      description: "Architected and developed a robust data migration service using NestJS to seamlessly transition legacy heritage visitor systems to the new Eptura Platform. Implemented complex ETL pipelines ensuring zero downtime and strict data integrity.",
+      tags: ["NestJS", "TypeScript", "ETL", "Data Migration", "Node.js", "MySQL"],
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80"
+    },
+    {
       title: "AI-Driven Workflow Automation",
       company: "Eptura",
       category: "AI & GenAI",
-      description: "Architected an Agent Orchestrator using Azure AI Foundry SDK in TypeScript. Developed a custom Eptura Platform MCP server connected to an API Gateway with secure bearer authentication.",
-      tags: ["TypeScript", "Foundry SDK", "Agent Orchestrator", "MCP", "API Gateway", "Bearer Auth"],
+      description: "Architected an Agent Orchestrator using Azure AI Foundry SDK in TypeScript. Built a custom Eptura Platform MCP by converting existing REST APIs to MCP standards, integrating them into AI-driven workflows via secure API Gateways.",
+      tags: ["TypeScript", "Foundry SDK", "Agent Orchestrator", "MCP", "REST to MCP", "API Gateway"],
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80"
     },
     {

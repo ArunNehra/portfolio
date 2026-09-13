@@ -8,11 +8,11 @@ const Skills = () => {
     },
     {
       title: "🖥️ Frontend & UI Architecture",
-      skills: ["React", "Next.js", "TypeScript", "JavaScript", "Microfrontends (MFE)", "Monorepo (NX)", "Redux Toolkit", "Redux Saga", "SEO & Schema Markup", "Tailwind CSS", "Styled Components", "Jotai"]
+      skills: ["React", "React Native", "Angular", "Next.js", "TypeScript", "JavaScript", "Microfrontends", "Turborepo & Yarn Workspaces", "RxJS", "Redux Toolkit", "Sass & Webpack"]
     },
     {
       title: "⚙️ Backend & Databases",
-      skills: ["Node.js", "NestJS", "Go", "PHP / Laravel", "GraphQL", "REST APIs", "TypeORM", "PostgreSQL", "MySQL", "InfluxDB (Time-Series)", "Firebase / Firestore"]
+      skills: ["Node.js", "NestJS", "Go", "GraphQL", "REST APIs", "TypeORM", "PostgreSQL", "MySQL", "Event Hub & Avro", "Firebase"]
     },
     {
       title: "🦀 Systems & Audio DSP",

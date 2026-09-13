@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="name">Hi, I'm <span className="gradient-text">Arun Nehra</span></h1>
           <h2 className="title">Principal Fullstack Engineer</h2>
           <p className="description">
-            9+ years engineering scalable full-stack applications with a deep specialization in modern UI architectures, state management, GenAI integrations, and high-performance client-side systems.
+            9+ years architecting scalable full-stack applications, with deep specialization in distributed systems, microservices, enterprise system design, and high-performance backend integrations.
           </p>
           <div className="hero-cta">
             <a href="#cover-letter" className="btn-primary">View Cover Letter</a>
@@ -49,8 +49,8 @@ const Hero = () => {
                   &nbsp;&nbsp;experience: <span className="string">"9+ Years"</span>,<br />
                   &nbsp;&nbsp;location: <span className="string">"India"</span>,<br />
                   &nbsp;&nbsp;focus: [<br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="string">"UI Architecture & React"</span>, <span className="string">"GenAI & Agents"</span>,<br />
-                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="string">"Fullstack Node/Go/Python"</span>, <span className="string">"Cloud Native"</span><br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="string">"Distributed Systems"</span>, <span className="string">"Microservices"</span>,<br />
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span className="string">"AI Foundry & Agents"</span>, <span className="string">"System Design"</span><br />
                   &nbsp;&nbsp;]<br />
                   &#125;;
                 </code>

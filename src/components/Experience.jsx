@@ -3,14 +3,16 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      role: "Principal Software Engineer",
+      role: "Principal Full-stack Engineer",
       company: "Eptura • Gurugram, HR",
       duration: "APR 2024 - Current",
       description: [
-        "Architected a custom Agent Orchestrator & Eptura Platform MCP (Foundry SDK, TS) connected to API Gateway with Bearer auth for AI-driven workflow orchestration",
-        "Led UI modernisation using Monorepo (NX) and Microfrontend's (MFE)",
-        "Built User Directory & Management system handling 100K+ records",
-        "Drove performance optimization and observability improvements across distributed systems"
+        "Architecting and engineering scalable enterprise platforms for Eptura Visitor, focusing on distributed systems, microservices architecture, and complex backend integrations.",
+        "Designing highly available, API-driven services using Node.js, NestJS, and TypeScript, backed by optimized relational data models (MySQL/TypeORM) and asynchronous event-driven streaming (Event Hub/Avro).",
+        "Architected an Agent Orchestrator using Azure AI Foundry SDK, building a custom Eptura Platform MCP by converting existing REST APIs to MCP standards for AI-driven workflow automation.",
+        "Developing robust web and mobile ecosystems (Angular, React Native, RxJS) integrated seamlessly with distributed backend services, managed via Turborepo/Yarn Workspaces.",
+        "Spearheading mission-critical systems engineering including massive data migration pipelines, zero-downtime identity/SCIM integrations, and deep-dive production observability improvements.",
+        "Previously led UI modernization for Eptura Platform's Directory and HR systems, engineering high-performance micro-frontends (MFE) orchestrated within an NX Monorepo."
       ]
     },
     {

@@ -7,12 +7,12 @@ const About = () => {
         <div className="about-content glass-panel">
           <h2 className="section-title" style={{marginBottom: '1rem'}}>My Journey</h2>
           <p className="text-secondary mb-8 text-center" style={{maxWidth: '800px', margin: '0 auto 2rem'}}>
-            A passionate full-stack architect specializing in high-performance web applications, complex React/TypeScript systems, micro-frontends, global state management, and seamless GenAI integrations.
+            An enterprise full-stack engineer and architect specializing in distributed systems, microservices architecture, and scalable web platforms. Proficient in designing robust backend integrations, event-driven systems, and end-to-end solutions that drive critical business operations.
           </p>
           <div className="stats-grid">
             <div className="stat-item text-center">
               <span className="stat-title text-xl">9+ Years Experience</span>
-              <span className="stat-desc">Full-stack & UI Architecture</span>
+              <span className="stat-desc">Full-stack & Systems Architecture</span>
             </div>
             <div className="stat-item text-center">
               <span className="stat-title text-xl">Principal Engineer</span>
