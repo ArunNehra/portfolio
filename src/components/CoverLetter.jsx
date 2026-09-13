@@ -14,23 +14,23 @@ const CoverLetter = () => {
             <p className="salutation">Dear Hiring Manager,</p>
             
             <p>
-              I am writing to express my interest in a Principal Fullstack Software Engineering position. With over 9 years of experience engineering scalable web applications with deep-seated expertise in advanced frontend architectures, state management, and full-stack integrations, I am confident in my ability to drive technical excellence on your team.
+              I am writing to express my interest in a Principal Fullstack Software Engineering position. With over 9 years of experience architecting scalable enterprise platforms, with deep-seated expertise in distributed systems, microservices, and robust backend integrations, I am confident in my ability to drive technical excellence on your team.
             </p>
             
             <p>
-              In my current role as Principal Software Engineer at Eptura, I have led web modernization initiatives using monorepo (NX) and micro-frontend architectures, establishing scalable UI foundations and elevating developer productivity. On the backend, I built and scaled high-throughput systems, including a user directory managing 100K+ records, using optimization policies to ensure secure, sub-second client delivery.
+              In my current role as a Principal Full-stack Engineer at Eptura, I drive backend engineering and architecture for the Eptura Visitor management platform. I design highly available, API-driven services using Node.js and NestJS, backed by MySQL and asynchronous event-driven streaming (Event Hub/Avro). I have also led complex data migration initiatives, seamlessly transitioning legacy heritage systems to modern platforms with zero downtime and strict data integrity.
             </p>
 
             <p>
-              I have designed and implemented full-stack pipelines that reduced release cycles from weeks to days, leveraging Docker, Kubernetes, and Azure for cloud-native reliability. I also integrated GenAI workflows, designing custom Model Context Protocol (MCP) servers and AI Agents via Azure AI Foundry to automate client-side operations.
+              Beyond traditional backend architecture, I architected an Agent Orchestrator utilizing the Azure AI Foundry SDK, building a custom Eptura Platform MCP by converting existing REST APIs to MCP standards. This successfully integrated secure AI-driven workflow automation into our core enterprise environment.
             </p>
             
             <p>
-              My expertise spans the entire lifecycle of modern web products, combining a mastery of client-side frameworks (React, Next.js, Redux Saga) with robust API development (GraphQL/REST, BFF patterns) and database engineering (PostgreSQL, MySQL, InfluxDB).
+              My expertise spans the entire lifecycle of mission-critical platforms, combining robust backend services with complex web and mobile ecosystems (Angular, React Native, RxJS) managed within Turborepo and Yarn Workspaces. I excel at handling massive data pipelines, identity/SCIM integrations, and deep-dive production observability.
             </p>
 
             <p>
-              I am excited about the opportunity to bring my full-stack capabilities and user-centric architecture experience to your organization. I would welcome the chance to discuss how my background aligns with your team's upcoming goals.
+              I am excited about the opportunity to bring my distributed systems capabilities and enterprise architecture experience to your organization. I would welcome the chance to discuss how my background aligns with your team's upcoming goals.
             </p>
 
             <div className="sign-off">
