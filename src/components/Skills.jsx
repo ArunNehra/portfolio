@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       title: "⚙️ Backend & Databases",
-      skills: ["Node.js", "NestJS", "Go", "GraphQL", "REST APIs", "TypeORM", "PostgreSQL", "MySQL", "Event Hub & Avro", "Firebase"]
+      skills: ["Node.js", "NestJS", "Go", "Microservices", "Distributed Systems", "GraphQL", "REST APIs", "TypeORM", "PostgreSQL", "MySQL", "Event Hub & Avro", "ETL Pipelines"]
     },
     {
       title: "🦀 Systems & Audio DSP",
